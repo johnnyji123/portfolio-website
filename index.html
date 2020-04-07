@@ -1,0 +1,289 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/df635cd73f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Johnny Ji</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+
+
+</head>
+
+<body>
+    <section class="landing-page">
+        <div class="logo-container">
+            <div class="logo">
+                <img class="logo-image" src="./images/design-team-logo.png" alt="">
+            </div>
+        </div>
+        <div class="ico animated">
+
+            <div class="circle circle-top"></div>
+            <div class="circle circle-main"></div>
+            <div class="circle circle-bottom"></div>
+
+            <svg class="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                <defs>
+                    <clipPath id="cut-off-arrow">
+                        <circle cx="306" cy="306" r="287" />
+                    </clipPath>
+
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                            result="goo" />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                    </filter>
+
+                </defs>
+                <path class="st-arrow" d="M317.5,487.6c0.3-0.3,0.4-0.7,0.7-1.1l112.6-112.6c6.3-6.3,6.3-16.5,0-22.7c-6.3-6.3-16.5-6.3-22.7,0
+                              l-86,86V136.1c0-8.9-7.3-16.2-16.2-16.2c-8.9,0-16.2,7.3-16.2,16.2v301.1l-86-86c-6.3-6.3-16.5-6.3-22.7,0
+                              c-6.3,6.3-6.3,16.5,0,22.7l112.7,112.7c0.3,0.3,0.4,0.7,0.7,1c0.5,0.5,1.2,0.5,1.7,0.9c1.7,1.4,3.6,2.3,5.6,2.9
+                              c0.8,0.2,1.5,0.4,2.3,0.4C308.8,492.6,313.8,491.3,317.5,487.6z" />
+            </svg>
+        </div>
+        <h2 class="name">Johnny Ji</h2>
+        <p class="description">Hello, I am a Junior software developer</p>
+        <p class="description-two">I love to write simple code, producing beautiful websites</p>
+
+
+    </section>
+    <nav id="navbar">
+        <a href="#top" class="nav-list">
+            <ul>Home</ul>
+        </a>
+        <a href="#about" class="nav-list">
+            <ul>About</ul>
+        </a>
+        <a href="#navigate" class="nav-list">
+            <ul>Project</ul>
+        </a>
+        <a href="#go" class="nav-list">
+            <ul>Contact</ul>
+        </a>
+    </nav>
+
+
+    <section class="position-about-me">
+        <div class="about-me" id="about" data-aos="zoom-in" data-aos-duration="1000">
+            <h2>About me</h2>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="spacing-fontawesome-icons" data-aos="fade-right" data-aos-duration="1000">
+            <i class="fab fa-github" style="color: white;"></i>
+            <p class="style-fontawesome-icon">I know modern dev workflows, using Git and Github to contribute to
+                projects</p class="style-fontawesome-icon">
+        </div class="spacing-fontawesome-icons">
+        <div class="spacing-fontawesome-icons" data-aos="fade-right" data-aos-duration="1000">
+            <i class="fab fa-css3" style="color: white;"></i>
+            <p class="style-fontawesome-icon">I am proficient in using CSS and SCSS to design responsive and beautiful
+                websites</p>
+        </div class="spacing-fontawesome-icons">
+        <div class="spacing-fontawesome-icons" data-aos="fade-right" data-aos-duration="1000">
+            <i class="fab fa-js" style="color: white;"></i>
+            <p class="style-fontawesome-icon">I know how to write ES6 Javascript, using Javascript to manipulate the
+                DOM, creating functional websites, apps and games</p>
+        </div>
+        <div class="spacing-fontawesome-icons" data-aos="fade-right" data-aos-duration="1000">
+            <i class="fab fa-react" style="color: white;"></i>
+            <p class="style-fontawesome-icon">I can build single page user interfaces for simpler and quicker web
+                designs used currently in the workplace</p>
+        </div>
+        <div class="spacing-fontawesome-icons" data-aos="fade-right" data-aos-duration="1000">
+            <i id="font" class="fab fa-html5" style="color: white;"></i>
+            <p class="style-fontawesome-icon">Capable of writing clean, dry and maintainable code.</p>
+        </div>
+        <div class="spacing-fontawesome-icons" data-aos="fade-right" data-aos-duration="1000">
+            <i class="fab fa-bootstrap" style="color: white;"></i>
+            <p class="style-fontawesome-icon">Proficient in using bootstrap in SCSS and React to design websites that
+                look good,faster and easier.</p>
+        </div>
+    </section>
+
+
+    <section id="graph" style=>
+        <div class="progress" style="margin: 20px;width: 350px;" data-aos="fade-right" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25">CSS<aria-valuemin="0"
+                    aria-valuemax="100">
+            </div>
+            <div class="space-between-bar"></div>
+            <div class="position-percentage">90%</div>
+        </div>
+        <div class="progress" style="margin: 20px; width: 350px;" data-aos="fade-right" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25">HTML
+                <aria-valuemin="0" aria-valuemax="100">
+            </div>
+            <div class="space-between-bar"></div>
+            <div class="position-percentage-100">100%</div>
+
+        </div>
+        <div class="progress" style="margin: 20px; width: 350px;" data-aos="fade-right" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25">JavaScript
+                <ria-valuemin="0" aria-valuemax="100">
+            </div>
+            <div class="space-between-bar-65"></div>
+            <div class="position-percentage">65%</div>
+        </div>
+        <div class="progress" style="margin: 20px; width: 350px;" data-aos="fade-left" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25">React.js
+                <ria-valuemin="0" aria-valuemax="100">
+            </div>
+            <div class="space-between-bar-60"></div>
+            <div class="position-percentage">60%</div>
+        </div>
+        <div class="progress" style="margin: 20px; width: 350px;" data-aos="fade-left" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25">SCSS
+                <aria-valuemin="0" aria-valuemax="100">
+            </div>
+            <div class="space-between-bar-90"></div>
+            <div class="position-percentage">90%</div>
+        </div>
+        <div class="progress" style="margin: 20px; width: 350px;" data-aos="fade-left" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25">Github
+                <aria-valuemin="0" aria-valuemax="100">
+            </div>
+            <div class="space-between-bar-70"></div>
+            <div class="position-percentage-70">70%</div>
+        </div>
+        <div class="progress" style="margin: 20px; width: 350px;" data-aos="fade-left" data-aos-duration="1000">
+            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25">Terminal-Git-Bash
+                <aria-valuemin="0" aria-valuemax="100">
+            </div>
+            <div class="space-between-bar-85"></div>
+            <div class="position-percentage-85">85%</div>
+        </div>
+    </section>
+
+
+    <div id="modal">
+        <div class="modal-content">
+            <span id="close">&times</span>
+            <p class="modal1">As a curious and motivated indidivdual, my passion for tech began when I was introduced by
+                a friend at University. Since then, I have always been intrigued about programming and have always
+                wanted to learn more. Due to my studies, I have never been able to commit to learning such a difficult
+                and technical intensive language/course. Despite this, I have always gone back to programming, wanting
+                to learn more, wanting to get good and put my foot into the tech world in order to impact the
+                technological sector. This has led me to partake in a 12 week _nology coding bootcamp, learning a
+                variety of front-end technologies.
+                <div class="button-container">
+                    <button id="close-button">Close</button>
+                </div>
+        </div>
+    </div>
+
+    <section class="flex">
+        <div id="about" data-aos="fade-right" data-aos-duration="1000">
+            <div class="speech-bubble">
+                <div class="arrow bottom right"></div>
+                Thinking....
+            </div>
+            <div class="position-image" data-aos="fade-left" data-aos-duration="1000">
+                <img id="image" data-aos="fade-left" data-aos-duration="1000" src="./images/myAvatar.png" alt="">
+                <p class="click-me" data-aos="zoom-in-out" data-aos-duration="1000">Click me to learn more about me</p>
+            </div>
+
+    </section>
+
+    <section>
+        <div class="going-into-projects">
+        </div>
+    </section>
+
+    <div class="projects">
+        <h2 id="navigate">Projects</h2>
+    </div>
+
+    <section class="position-projects">
+
+        <div class="project-image" data-aos="flip-left" data-aos-duration="1000">
+            <img class="gap-between-projects" src="./images/Tic Tac Toe.png" alt="">
+            <div class="overlay-effect"></div>
+            <div class="text">Tic tac toe built using Javascript</div>
+            <div class="learn-more"><a href="https://johnnyji123.github.io/Tic-Tac-Toe/" target="_blank">Learn more</a>
+            </div>
+        </div>
+        <div class="project-image" data-aos="flip-left" data-aos-duration="1000">
+            <img class="gap-between-projects" src="./images/Client Project.png" alt="">
+            <div class="overlay-effect"></div>
+            <div class="text">Project built for a client using React - built using front and back-end</div>
+            <div class="learn-more"><a href="https://the-drop-x-nology.web.app/" target="_blank">Learn more</a></div>
+        </div>
+        <div class="project-image" data-aos="flip-left" data-aos-duration="1000">
+            <img class="gap-between-projects" src="./images/Pictionary .png" alt="">
+            <div class="overlay-effect"></div>
+            <div class="text">My Matching card game built in my 1st week of learning Javascript</div>
+            <div class="learn-more"><a href="https://johnnyji123.github.io/pictionary/." target="_blank">Learn more</a>
+            </div>
+        </div>
+        <div class="project-image" data-aos="flip-left" data-aos-duration="1000">
+            <img class="gap-between-projects" src="./images/Weather App.png" alt="">
+            <div class="overlay-effect"></div>
+            <div class="text">An app to built using React and Api where you can see the weather conditions in different
+                cities and Countries.</div>
+            <div class="learn-more"><a href="https://johnnyji123.github.io/react-weather-app/" target="_blank">Learn
+                    more</a></div>
+        </div>
+        <div class="project-image" data-aos="flip-left" data-aos-duration="1000">
+            <img class="gap-between-projects" src="./images/league of legends.png" alt="">
+            <div class="overlay-effect"></div>
+            <div class="text">Used what I learnt in React to build a fan website of my favourite game</div>
+            <div class="learn-more"><a href="https://league-of-legends-51364.firebaseapp.com" target="_blank">Learn
+                    more</a></div>
+        </div>
+        <div class="project-image" data-aos="flip-left" data-aos-duration="1000">
+            <img class="gap-between-projects" src="./images/Team generator.png" alt="">
+            <div class="overlay-effect"></div>
+            <div class="text">A random team generator built using React and Javascript</div>
+            <div class="learn-more"><a href="https://johnnyji123.github.io/random-team-generator/" target="_blank">Learn
+                    more</a></div>
+        </div>
+
+    </section>
+
+    <div class="going-into-get-in-touch"></div>
+
+    <section class="get-in-touch">
+        <h2 data-aos="fade-up-right">Get In Touch</h2>
+    </section>
+
+    <footer class="footer" id="go" data-aos="fade-up-left">
+        <a href="https://github.com/johnnyji123" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+        <a href="./images/CV Johnny Ji - all contact details official.pdf" target="_blank"><i
+                class="fas fa-file-word"></i></a>
+        <a href="mailto:jj_johnny97@hotmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+    </footer>
+
+
+    <section class="back-to-top"><a href="#" class="to-top">Back to top</a></section>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>
