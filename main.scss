@@ -151,7 +151,6 @@ $anim-timing: 3s;
 
 .landing-page {
   display: flex;
-  // background: linear-gradient(to right, #2f2fa2, #F64c72);
   background: linear-gradient(to right, #ffd89b , #19547b);
   width: 100%;
   height: 100vh;
@@ -201,6 +200,7 @@ nav {
   overflow: hidden;
   position: sticky;
   top: 0;
+  border-bottom: 2px solid white;
 }
 
 .nav-list{
@@ -240,7 +240,8 @@ a{
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  background: linear-gradient(to right, #19547b , #ffd89b);
+  // background: linear-gradient(to right, #19547b , #ffd89b);
+  background-color: #1B242F;
   width: 100%;
   margin-top: 70px;
   height: 500px;
@@ -257,6 +258,7 @@ a{
     text-align: center;
     margin: 0px;
     padding: 10px;
+    color: white;
     
   }
 }
@@ -383,7 +385,8 @@ a{
   height: 100vh;
   width: 100%;
   overflow: auto;
-  background: linear-gradient(to right, #ffd89b , #19547b);
+  // background: linear-gradient(to right, #ffd89b , #19547b);
+  background: #1b242f;
 
   .modal-content {
     height: 80%;
@@ -424,7 +427,7 @@ a{
   font-size: 30px;
   border: 2px solid black;
   color: $background-color;
-  background: linear-gradient(to right, #000428 , #004e92);
+  background-color: #805E73;
   text-align: right;
   margin: 10px;
 
